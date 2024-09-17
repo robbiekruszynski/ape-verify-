@@ -1,1 +1,9 @@
-name: ape-verify
+# name: ape-verify
+networks:
+  apechain:
+    testnet:
+      default_provider: curtis
+      providers:
+        curtis:
+          chain_id: 33111   
+          host: https://curtis.rpc.caldera.xyz/http
